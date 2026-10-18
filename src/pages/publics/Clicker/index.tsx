@@ -36,8 +36,8 @@ export default function Clicker() {
             cliques: formData.cliques >= formData.preco ? (formData.cliques - formData.preco) : formData.cliques = formData.cliques, 
             comprado: formData.cliques >= formData.preco ? formData.comprado + 1 : formData.comprado + 0,
             preco: formData.cliques >= formData.preco ? formData.preco * 1.5 : formData.preco + 0})}
-          
-        >Compre aqui por: <br /> <span>{formData.preco.toFixed(0)} Cliques</span></button>
+          >Compre aqui por: <br /> <span>{formData.preco.toFixed(0)} Cliques</span>
+          </button>
      </div>
 
     </main>
