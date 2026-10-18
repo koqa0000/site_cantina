@@ -20,10 +20,13 @@
   background-color: var(--color-dark-spruce);
 
   box-shadow: 0 0 8px black;
+
+  transition: all .1s ease;
 }
 
 .clickerButton:active {
   background-color: var(--color-olive-leaf);
+  transform: scale(1.05, 1.05);
 }
 .containerButton{
   display: flex;
