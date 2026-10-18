@@ -7,6 +7,14 @@
 
 }
 
+h1 {
+  font-weight: 400;
+}
+
+span {
+  font-weight: 500;
+}
+
 .clickerButton {
   border: none;
   border-radius: 900px;
@@ -32,4 +40,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+
+.comprar {
+  height: 150px;
+  width: 150px;
+  background-color: var(--color-watermelon);
 }
