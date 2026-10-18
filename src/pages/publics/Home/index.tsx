@@ -1,0 +1,1 @@
+export default () => <>Aqui é a Home</>
